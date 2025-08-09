@@ -1,0 +1,53 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "examples": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening"
+            ],
+            "response": "Hello! How can I help you today?"
+        },
+        {
+            "tag": "goodbye",
+            "examples": [
+                "bye",
+                "goodbye",
+                "see you",
+                "talk later"
+            ],
+            "response": "Goodbye! If you need anything else, just message me."
+        },
+        {
+            "tag": "order_status",
+            "examples": [
+                "where is my order",
+                "order status",
+                "track my shipment",
+                "track order"
+            ],
+            "response": "I can help with order status \u2014 please provide your order ID or say 'I don't have it' to escalate."
+        },
+        {
+            "tag": "refund",
+            "examples": [
+                "i want a refund",
+                "refund my order",
+                "how do i get a refund"
+            ],
+            "response": "I'm sorry to hear that. I can start a refund request \u2014 can you share the order ID?"
+        },
+        {
+            "tag": "thanks",
+            "examples": [
+                "thanks",
+                "thank you",
+                "thx"
+            ],
+            "response": "You're welcome! Anything else I can help with?"
+        }
+    ]
+}
